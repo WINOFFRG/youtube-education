@@ -1,0 +1,311 @@
+.main_welcomePage--EL {
+  position: relative;
+}
+
+ .hulu_nav_logo--WRAPPER {
+    width: 6rem;
+    filter: brightness(0) invert(1);
+  
+  }
+  
+   .hulu_nav_logo--WRAPPER img {
+    width: inherit;
+  }
+
+.welcome_header--EL {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#101dd1), to(#767cd5));
+  background: linear-gradient(#101dd1, #767cd5);
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER {
+  height: inherit;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.2))), url("../public/cover.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../public/cover.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 64px);
+  max-width: 55rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  padding-bottom: 20rem;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL {
+  width: 100%;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header-headline {
+  width: inherit;
+  margin: 1.7rem 0;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header-headline img {
+  width: inherit;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  font-family: 'Questrial', sans-serif;
+  padding-top: 2rem;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header_ctas--WRAPPER button {
+  display: block;
+  color: #eee;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 1.5rem auto;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header_ctas--WRAPPER button:hover {
+  opacity: 0.75;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header_ctas--WRAPPER .SUBFEATURESandTERMS--CONTAINER {
+  color: #222;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header_ctas--WRAPPER .SUBFEATURESandTERMS--CONTAINER a {
+  color: #222;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER .header_content--EL .header_ctas--WRAPPER > a {
+  color: #222;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.plansFeatures--SECTION {
+  background-color: #000;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_content--CONTAINER {
+  text-align: center;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_content--CONTAINER .plansFeaturesSection_typos--WRAPPER {
+  margin-bottom: 5rem;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER .plansFeatureCard--EL {
+  position: relative;
+  width: 100%;
+  background-blend-mode: overlay;
+  aspect-ratio: 0.49;
+  border: none;
+  cursor: pointer;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER .plansFeatureCard--EL.premiums_FeatureCard::after {
+  content: "Premium network add-ons available for an additional cost";
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  color: #fff;
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER .plansFeatureCard--EL .plansFeatureCard_typos--CONTAINER {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  text-align: left;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER .plansFeatureCard--EL .plansFeatureCard_typos--CONTAINER span {
+  font-size: 1.5rem;
+}
+
+.plansFeatures--SECTION .plansFeaturesSection_features--CONTAINER .plansFeatureCard--EL .plansFeatureCard_typos--CONTAINER h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.billboard--SECTION {
+  background-color: #151516;
+  text-align: center;
+}
+
+.billboard--SECTION .billboard_content_footer--WRAPPER .Billboard_disclaimer--EL {
+  color: #999;
+  line-height: 2.2;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.billboard--SECTION .billboard_content_footer--WRAPPER .Billboard_disclaimer--EL a {
+  color: #999;
+  text-decoration: underline;
+}
+
+.billboard--SECTION .billboard_content_footer--WRAPPER .Billboard_modalLink--EL {
+  color: #bbb;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.billboard--SECTION .billboard_content_footer--WRAPPER .downScrollBtn--EL {
+  display: block;
+  width: 2rem;
+  margin: 2rem auto 0 auto;
+}
+
+.billboard--SECTION .billboard_content_footer--WRAPPER .downScrollBtn--EL img {
+  width: inherit;
+  -webkit-filter: invert(0.8);
+          filter: invert(0.8);
+  -webkit-animation: scroll-down 0.8s linear alternate infinite;
+          animation: scroll-down 0.8s linear alternate infinite;
+}
+
+@-webkit-keyframes scroll-down {
+  0% {
+    -webkit-transform: translateY(-0.5rem);
+            transform: translateY(-0.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0.5rem);
+            transform: translateY(0.5rem);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    -webkit-transform: translateY(-0.5rem);
+            transform: translateY(-0.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0.5rem);
+            transform: translateY(0.5rem);
+  }
+}
+
+.channels--SECTION {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.channels--SECTION.liveSports_channel {
+  background: rgba(0, 0, 0, 0.3) url("/app.png") center;
+
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER {
+  max-width: 45rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .channels--SECTION .channelsSection_content--CONTAINER {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER {
+    margin: 0 auto 6rem auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channelsTapLinks--CONTAINER {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channelsTapLinks--CONTAINER {
+    -webkit-column-gap: 1.5rem;
+            column-gap: 1.5rem;
+  }
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channelsTapLinks--CONTAINER .channel_Tap_Link--EL {
+  color: rgba(153, 153, 153, 0.8);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channelsTapLinks--CONTAINER .channel_Tap_Link--EL.activeTap {
+  color: #fff;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channel_activeTap--EL {
+  position: relative;
+  margin-top: 1rem;
+  height: 0.4rem;
+}
+
+.channels--SECTION .channelsSection_content--CONTAINER .channelsTapLinks_Block--CONTAINER .channel_activeTap--EL .channel_activeTap_bar--EL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/*# sourceMappingURL=Welcome.module.css.map */

@@ -55,7 +55,7 @@ export default function Welcome({ users }) {
   return (
     <Fragment>
       <Head>
-        <title>Stream TV and movies Live and Online | Hulu</title>
+              <title>Find everything at one place | Youtube Education</title>
       </Head>
       <main className={`${classes["main_welcomePage--EL"]}`}>
         {!!modalContent && displayModal && (

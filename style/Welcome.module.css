@@ -24,7 +24,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../public/cover.png");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center;
 }
 
 .welcome_header--EL .welcome_header_content--WRAPPER .header_content--CONTAINER {

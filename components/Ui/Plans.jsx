@@ -30,7 +30,18 @@ const Plans = () => {
                     <th className={classes["huluPlan_rowStarter--EL"]}>
                       <div
                         className={classes["huluPlans_rowHeader--CONTAINER"]}
-                                          >
+                                          ><div
+                                              className={
+                                                  classes["huluPlans_rowHeader_typos--CONTAINER"]
+                                              }
+                                              >
+                                                  <h3>
+                                                      Bundle & Save{" "}
+                                                  </h3>
+                                                  <p>
+                                                      Includes Youtube Premium (plan of your choice)
+                                                  </p>
+                                              </div>
                       </div>
                     </th>
                     <th
@@ -120,7 +131,7 @@ const Plans = () => {
                                       <td>Yes</td>
                                   </tr>
                                   <tr>
-                                      <th scope="row">Ad Free</th>
+                                      <th scope="row">Ad Free**</th>
                                       <td>No</td>
                                       <td>Yes</td>
                                   </tr>
@@ -137,6 +148,13 @@ const Plans = () => {
                                       <td>No</td>
                                       <td>Yes</td>
                                   </tr>
+                                  <tr>
+                                      <th scope="row">
+                                          Youtube Premium Addon
+                                      </th>
+                                      <td>Optional</td>
+                                      <td>Yes</td>
+                                  </tr>
                               </tbody>
                               <tfoot>
                                   <tr>
@@ -146,6 +164,9 @@ const Plans = () => {
                                           >
                                               <span>
                                                   *Features require creator's to enable the access. This might be limited!
+                                              </span>
+                                              <span>
+                                                  **Youtube Premium plan is required to block the ads completely.
                                               </span>
                                           </div>
                                       </td>

@@ -82,32 +82,12 @@ const Plans = () => {
                 </thead>
 
                 <tbody>
-                  <tr>
-                    <th scope="row">Monthly price</th>
+                                  <tr>
+                                      <th scope="row">Monthly price</th>
                                       <td>Rs.0/mo</td>
                                       <td>Rs.199/mo</td>
                                   </tr>
-                  <tr>
-                                      <th scope="row">Ad Free</th>
-                                      <td>No</td>
-                                      <td>Yes</td>
-                                  </tr>
-                  <tr>
-                                      <th scope="row">Access to Creator's Library</th>
-                                      <td>Yes</td>
-                                      <td>Yes</td>
-                                  </tr>
-                  <tr>
-                                      <th scope="row">Live Calendar</th>
-                                      <td>Yes</td>
-                                      <td>Yes</td>
-                                  </tr>
-                  <tr>
-                                      <th scope="row">Live Chat Support*</th>
-                                      <td>No</td>
-                                      <td>Yes</td>
-                                  </tr>
-                  <tr>
+                                  <tr>
                                       <th scope="row">Discussion Forum</th>
                                       <td>Yes</td>
                                       <td>Yes</td>
@@ -119,21 +99,58 @@ const Plans = () => {
                                       <td>Yes</td>
                                       <td>Yes</td>
                                   </tr>
+
                   <tr>
                                       <th scope="row">
-                                          Private Classes
+                                          Access to Creator's Library
+                                          <p
+                                              style={{
+                                                  fontWeight: 400
+                                              }}
+                                          >
+                                              This includes Notes, Announcements, Assignments, Blogs, Doubt Section
+                                          </p>
                                       </th>
+                                      <td>Yes</td>
+                                      <td>Yes</td>
+                                  </tr>
+                  <tr>
+                                      <th scope="row">Live Calendar</th>
+                                      <td>No</td>
+                                      <td>Yes</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">Ad Free</th>
+                                      <td>No</td>
+                                      <td>Yes</td>
+                                  </tr>
+
+                  <tr>
+                                      <th scope="row">Live Chat Support*</th>
                                       <td>No</td>
                                       <td>Yes</td>
                                   </tr>
                   <tr>
                                       <th scope="row">
-
+                                          Private Classes with Live Collaboration
                                       </th>
                                       <td>No</td>
                                       <td>Yes</td>
                                   </tr>
                               </tbody>
+                              <tfoot>
+                                  <tr>
+                                      <td>
+                                          <div
+                                              className={classes["table_disclaimer_content--WRAPPER"]}
+                                          >
+                                              <span>
+                                                  *Features require creator's to enable the access. This might be limited!
+                                              </span>
+                                          </div>
+                                      </td>
+                                  </tr>
+                              </tfoot>
               </table>
             </div>
           </div>

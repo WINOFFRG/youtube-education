@@ -153,7 +153,7 @@ export default function Welcome({ users }) {
                 <button
                   style={{
                     background:
-                                          'url("/c1.jpg") center',
+                                          'url("/c4.jpg") center',
                                       backgroundSize: "contain",
                                       backgroundRepeat: "no-repeat",
 
